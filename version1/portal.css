@@ -1,0 +1,160 @@
+body {
+  background-color: #000;
+  color: white; }
+
+.title-banner {
+  position: relative;
+  background: url(image1.jpg) center no-repeat;
+  height: 150px;
+  box-shadow: 0 5px 5px rgba(183, 183, 183, 0.5); }
+
+.title-nav {
+  height: 70px; }
+  .title-nav h1 {
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    text-shadow: -5px 5px 5px rgba(183, 183, 183, 0.5); }
+  .title-nav ul {
+    align-content: center;
+    list-style: none;
+    margin-top: -25px;
+    padding: 9px;
+    float: right;
+    clear: both; }
+  .title-nav li {
+    float: left;
+    box-sizing: border-box;
+    display: block; }
+  .title-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 150px;
+    border: 2px solid white;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    box-shadow: -5px 5px 5px rgba(183, 183, 183, 0.5); }
+
+.title-nav li:nth-child(4) a {
+  background-color: #FFF;
+  color: #000; }
+
+.container {
+  width: 98.2%;
+  height: 800px;
+  padding-right: 10px;
+  padding-left: 10px; }
+  .container .content-alpha {
+    background-color: #b7b7b7;
+    float: left;
+    height: 95.5%;
+    width: 11%;
+    transform: translateY(20px);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 8px 5px 5px rgba(183, 183, 183, 0.5); }
+    .container .content-alpha h3 {
+      border: 3px solid white;
+      border-top: none;
+      border-right: none;
+      border-left: none; }
+    .container .content-alpha .navigator {
+      height: 89%;
+      overflow: auto; }
+    .container .content-alpha .showbox {
+      border-radius: 5px;
+      background-color: black;
+      text-align: center; }
+      .container .content-alpha .showbox img {
+        width: 90%; }
+      .container .content-alpha .showbox a {
+        color: #FFF; }
+  .container .center-content {
+    float: left;
+    height: 100%;
+    width: 72%;
+    transform: translateX(2.7%) translateY(20px);
+    overflow: hidden; }
+    .container .center-content h2 {
+      text-align: center;
+      padding-top: 0;
+      margin-top: 0; }
+    .container .center-content h3 {
+      text-align: center;
+      border: 3px solid white;
+      border-top: none;
+      border-right: none;
+      border-left: none; }
+    .container .center-content .portal {
+      height: 85%; }
+    .container .center-content .updates {
+      height: 30%; }
+      .container .center-content .updates #slideContainer {
+        height: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 0;
+        position: relative; }
+      .container .center-content .updates .imageContainer img {
+        width: 50%; }
+      .container .center-content .updates .imageContainer .caption {
+        width: 45%;
+        float: right; }
+        .container .center-content .updates .imageContainer .caption p {
+          width: 100%; }
+    .container .center-content .releases {
+      height: 25%;
+      overflow: auto; }
+      .container .center-content .releases table {
+        background-color: #b7b7b7;
+        border-collapse: collapse;
+        width: 100%; }
+        .container .center-content .releases table th, .container .center-content .releases table td {
+          padding: 20px;
+          text-align: center; }
+        .container .center-content .releases table tr:nth-child(odd) td {
+          background-color: black; }
+        .container .center-content .releases table tr:nth-child(even) td {
+          background-color: #ff8e16; }
+        .container .center-content .releases table .generator {
+          overflow: auto; }
+    .container .center-content .events {
+      height: 25%;
+      overflow: auto; }
+      .container .center-content .events table {
+        background-color: #b7b7b7;
+        border-collapse: collapse;
+        width: 100%; }
+        .container .center-content .events table th, .container .center-content .events table td {
+          padding: 20px;
+          text-align: center; }
+        .container .center-content .events table tr:nth-child(odd) td {
+          background-color: black; }
+        .container .center-content .events table tr:nth-child(even) td {
+          background-color: #ff8e16; }
+        .container .center-content .events table .generator {
+          overflow: auto; }
+  .container .content-beta {
+    background-color: #b7b7b7;
+    float: right;
+    height: 97%;
+    width: 12%;
+    transform: translateY(20px);
+    border-radius: 10px;
+    box-shadow: -8px 5px 5px rgba(183, 183, 183, 0.5); }
+
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1;
+  /*for older legacy versions of internet explorer */ }
+
+/*# sourceMappingURL=portal.css.map */

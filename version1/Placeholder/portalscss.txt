@@ -1,0 +1,172 @@
+body {
+    background-color: #B7B7B7;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    .background {
+    background-color: #000;
+    }
+}
+.title-nav {
+    position: relative;
+    
+    header {
+        h1 {
+            
+        }
+    }
+    nav {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        margin: 0;
+        padding: 0;
+        ul {
+            list-style: none;
+            
+        }
+        li {
+            float: left;
+        }
+        a {
+            text-decoration: none;
+            color: #FFF;
+            border: 2px solid #FFF;
+            border-top: none;
+            border-left: none;
+            border-bottom: none;
+            padding: 20px;
+        }
+        a:hover {
+            
+        }
+    }
+}
+.title-banner {
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+.container {
+    border: 10px solid /*#005DF4*/#000;
+    border-radius: 0 0 10px 10px;
+    height: 1000px;
+}
+.content-alpha {
+    height: 100%;
+    width: 15%;
+    padding: 10px;
+    border: 10px solid black;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    h3 {
+        border: 2px solid #FFF;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+    }
+    .navigator {
+        height: 93%;
+        overflow: auto;
+       
+    }
+    .showbox {
+        border: 9px solid black;
+        border-radius: 10px;
+        text-align: center;
+        padding: 5px;
+        background-color: #000;
+        img {
+        width: 90%;
+        }
+        a {
+            color: #FFF;
+        }
+    }
+    
+}
+.content-beta {
+    height: 100%;
+    width: 15%;
+    padding: 10px;
+    border: 10px solid black;
+    float: right;
+    box-sizing: border-box;
+    
+}
+.center-content {
+    float: left;
+    width: 70%;
+    height: 1000px;
+    box-sizing: border-box;
+    text-align: center;
+    h2 {
+        background-color: black;
+        padding: 10px;
+        margin: 0;
+    }
+    .second {
+        background-image: url(image3.jpg);
+        background-size: 50%;
+    }
+    .third {
+        background-image: url(image.jpg);
+        background-size: 50%;
+    }
+    .portal {
+        height: 953px;
+        overflow: hidden;
+        //background-color: #000;
+        .updates {
+           border: 5px solid black;
+           text-align: left;
+           padding-right: 8px;
+           h3 {
+               border: 2px solid #FFF;
+               border-left: none;
+               border-right: none;
+               border-top: none;
+           }
+           img {
+               float: left;
+               padding: 10px;
+           }
+        }
+        .events {
+            border-top: 8px solid black;
+        }
+    }
+    
+}
+.generator {
+    border: 5px solid black;
+    height: 280px;
+    overflow: auto;
+}
+table {
+    border: 10px solid black; 
+    border-collapse: collapse;
+    width: 100.5%;
+    th {
+       
+    }
+    th, td {
+        padding: 20px;
+    }
+    tr:nth-child(odd) td {
+        background-color: black;
+    }
+    tr:nth-child(even) td {
+        background-color: rgba(255,142,22,.5);
+    }
+    .generator {
+        overflow: auto;
+    }
+}
+.title-nav li:nth-child(4) a {
+    background-color: #FFF;
+    color: #000;
+}
+@import 'clearfix';

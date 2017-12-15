@@ -1,0 +1,107 @@
+body {
+  background-color: #000;
+  color: white; }
+
+.title-banner {
+  position: relative;
+  background: url(image1.jpg) center no-repeat;
+  height: 150px;
+  box-shadow: 0 5px 5px rgba(183, 183, 183, 0.5); }
+
+.title-nav {
+  height: 70px; }
+  .title-nav h1 {
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    text-shadow: -5px 5px 5px rgba(183, 183, 183, 0.5); }
+  .title-nav ul {
+    align-content: center;
+    list-style: none;
+    margin-top: -25px;
+    padding: 9px;
+    float: right;
+    clear: both; }
+  .title-nav li {
+    float: left;
+    box-sizing: border-box;
+    display: block; }
+  .title-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 150px;
+    border: 2px solid white;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    box-shadow: -5px 5px 5px rgba(183, 183, 183, 0.5); }
+
+.title-nav li:nth-child(2) a {
+  background-color: #FFF;
+  color: #000; }
+
+.container {
+  width: 98.2%;
+  height: 800px;
+  padding-right: 10px;
+  padding-left: 10px; }
+  .container .content-alpha {
+    float: left;
+    height: 95.5%;
+    width: 11%;
+    transform: translateY(20px);
+    padding: 5px; }
+    .container .content-alpha h3 {
+      border: 3px solid white;
+      border-top: none;
+      border-right: none;
+      border-left: none; }
+    .container .content-alpha img {
+      width: 100%;
+      height: 35%; }
+  .container .center-content {
+    float: left;
+    height: 100%;
+    width: 72.2%;
+    transform: translateX(2.7%) translateY(20px); }
+    .container .center-content h2 {
+      text-align: center;
+      padding-top: 0;
+      margin-top: 0; }
+    .container .center-content h3 {
+      text-align: center;
+      border: 3px solid white;
+      border-top: none;
+      border-right: none;
+      border-left: none; }
+    .container .center-content .epibox {
+      height: 90%;
+      overflow: auto; }
+      .container .center-content .epibox a {
+        color: #000; }
+    .container .center-content .section {
+      background-color: #b7b7b7;
+      height: 100px; }
+  .container .content-beta {
+    background-color: #b7b7b7;
+    float: right;
+    height: 97%;
+    width: 12%;
+    transform: translateY(20px);
+    border-radius: 10px;
+    box-shadow: -8px 5px 5px rgba(183, 183, 183, 0.5); }
+
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1;
+  /*for older legacy versions of internet explorer */ }
+
+/*# sourceMappingURL=bnh.css.map */
